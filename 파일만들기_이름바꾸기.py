@@ -42,7 +42,7 @@ string = 'abcdefghijklmnopqrstuvwxyz'
 #파일명 길이 설정
 letter_length = 6
 
-
+#https://codechacha.com/ko/python-touch-file/
 #30개의 파일을 생성 - 파일명은 랜덤으로 추출
 for i in range(1,31):
     random_letter = random.sample(string,letter_length)
